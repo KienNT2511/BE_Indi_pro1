@@ -25,7 +25,7 @@ export class Product {
   @Column({ type: 'int', default: 0 })
   quantity: number;
 
-  @Column({ nullable: true })
+  @Column({ type: 'varchar', nullable: true })
   material: string | null;
 
   @Column()
