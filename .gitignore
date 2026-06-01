@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+# npm
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -57,3 +60,6 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Claude Code local config
 .claude/
+
+# Project docs
+project-overview.txt
